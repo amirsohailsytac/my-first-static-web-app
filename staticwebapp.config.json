@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/.well-known/apple-app-site-association",
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/test/test"
+    }
+  ]
+}
