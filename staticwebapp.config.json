@@ -5,7 +5,9 @@
       "methods": [
         "get"
       ],
-      "rewrite": "/test/test"
+      "headers": {
+        "content-type": "application/json"
+      }
     }
   ]
 }
